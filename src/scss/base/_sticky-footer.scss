@@ -1,0 +1,13 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  @media (max-width: 700px) {
+    min-height: 100vh;
+    height: unset;
+  }
+}
+.main {
+  flex-grow: 1;
+}
